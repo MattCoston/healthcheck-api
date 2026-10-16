@@ -1,0 +1,11 @@
+# Local environments and tracking
+.env
+.env.*
+
+# Testing and linting tools
+.pytest_cache/
+.ruff_cache/
+
+# Catch-all for compiled python caches across all layers
+**/__pycache__/
+*.pyc
